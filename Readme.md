@@ -7,7 +7,7 @@ A simple Chip8 benchmarking utility.
 A simple Chip8 benchmarking utility. Reports an approximation of how many
 thousand instructions can be performed each second.
 
-For use with the [Octo Chip8 compiler](https://johnearnest.github.io/Octo/).
+Can be compiled with [the Octo Chip8 compiler](https://johnearnest.github.io/Octo/).
 
 ## Details
 Operates by counting how many loops of a benchmark function can be run in 30 frames.
