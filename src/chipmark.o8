@@ -239,6 +239,12 @@
   show_x := DIG_X2
   sprite show_x show_y DIG_SPRITE_N
 
+  i := comma
+  show_x := COMMA_X
+  show_y := COMMA_Y
+  sprite show_x show_y COMMA_N
+  show_y := DIG_Y
+
   : show_skip3
 
   # LSD hi
@@ -250,13 +256,7 @@
   show_x := DIG_X3
   sprite show_x show_y DIG_SPRITE_N
 
-  i := comma
-  show_x := COMMA_X
-  show_y := COMMA_Y
-  sprite show_x show_y COMMA_N
-  show_y := DIG_Y
-
-  : show_skip4
+    : show_skip4
 
   # MSD mid
   i := accumulator_mid
